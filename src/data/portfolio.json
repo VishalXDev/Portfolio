@@ -1,0 +1,72 @@
+{
+  "name": "Vishal Dwivedy",
+  "role": "Full-Stack Software Engineer | Cloud & DevOps Enthusiast",
+  "linkedin": "https://www.linkedin.com/in/vishal-dwivedy",
+  "github": "https://github.com/VishalXDev",
+  "email": "vishaldwidy@gmail.com",
+  "phone": "7004212369",
+  "summary": "3rd-year Computer Science student and Full-Stack Developer with experience in building scalable web apps using React.js, Next.js, Node.js, and AWS. Skilled in RESTful API design, database optimization (PostgreSQL, MongoDB), and deploying with Docker & CI/CD.",
+  
+  "experience": [
+    {
+      "position": "Software Developer Intern",
+      "company": "Bitsphere Infotech Pvt Ltd",
+      "duration": "March 2023 - November 2023",
+      "details": [
+        "Developed responsive web solutions for private clients and the Jharkhand Government, improving accessibility by 40%.",
+        "Built and optimized a government portal using React.js and Node.js, reducing page load times by 30%.",
+        "Deployed applications on AWS EC2, S3, Lambda, and Vercel, ensuring high availability and scalability."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "AI-Powered Product Recommendation App",
+      "description": "Developed an AI-powered recommendation engine for Shopify stores using React.js and Node.js, increasing conversion rates by 15%.",
+      "tech": ["React.js", "Node.js", "MongoDB", "AI/ML Algorithms"],
+      "url": "https://github.com/VishalXDev/AI-Product-Recommendation"
+    },
+    {
+      "name": "Resume Analyzer",
+      "description": "A web application that analyzes resumes using Next.js and Vercel.",
+      "url": "https://github.com/VishalXDev/Resume-Analyzer"
+    },
+    {
+      "name": "Article App",
+      "description": "A full-stack article application built with Next.js, Node.js, and PostgreSQL.",
+      "url": "https://github.com/VishalXDev/article-app"
+    },
+    {
+      "name": "Shopify Shop",
+      "description": "A Shopify survey application deployed on Vercel.",
+      "url": "https://github.com/VishalXDev/Shopify-Shop"
+    },
+    {
+      "name": "Dynamic Auth UI",
+      "description": "A user-friendly authentication interface featuring a full-screen responsive video background and modern styling with Tailwind CSS.",
+      "url": "https://github.com/VishalXDev/Dynamic-Auth-UI"
+    },
+    {
+      "name": "FocusPro",
+      "description": "A minimalist Pomodoro Timer designed to boost productivity, featuring 25-minute work sessions, a task list, and dark mode for a distraction-free experience.",
+      "url": "https://github.com/VishalXDev/FocusPro"
+    },
+    {
+      "name": "Register Karo",
+      "description": "A modern web application designed to simplify and secure the service registration process with an intuitive interface.",
+      "url": "https://github.com/VishalXDev/Register-Karo"
+    }
+  ],
+
+  "skills": [
+    "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Astro",
+    "Node.js", "Express.js", "GraphQL", "REST APIs",
+    "PostgreSQL", "MongoDB", "Drizzle ORM", "Redis",
+    "AWS (EC2, S3, Lambda, CloudFront, Terraform)", "Firebase",
+    "Docker", "Kubernetes", "Terraform", "Jenkins",
+    "CI/CD Pipelines (GitHub Actions, Jenkins, AWS CodePipeline)",
+    "OAuth", "JWT", "Role-Based Access Control", "WebSockets",
+    "Microservices", "ElasticSearch", "Tailwind CSS", "Bootstrap"
+  ]
+}
