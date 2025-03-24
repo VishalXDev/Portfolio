@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+"use client";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
@@ -9,29 +9,13 @@ import data from "@/data/portfolio.json";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <Hero 
-        name={data.name} 
-        role={data.role} 
-        linkedin={data.linkedin} // ✅ Added LinkedIn
-        github={data.github} // ✅ Added GitHub
-      />
-      <section id="about" className="py-20">
-        <About summary={data.summary} />
-      </section>
-      <section id="experience" className="py-20">
-        <Experience experiences={data.experience} />
-      </section>
-      <section id="projects" className="py-20">
-        <Projects projects={data.projects} />
-      </section>
-      <section id="skills" className="py-20">
-        <Skills skills={data.skills} />
-      </section>
-      <section id="contact" className="py-20">
-        <Contact email={data.email} phone={data.phone} />
-      </section>
-    </main>
+    <div>
+      <Hero name={data.name} role={data.role} linkedin={data.linkedin} github={data.github} />
+      <section id="about" className="py-20"><About summary={data.summary} /></section>
+      <section id="experience" className="py-20"><Experience experiences={data.experience} /></section>
+      <section id="projects" className="py-20"><Projects projects={data.projects} /></section>
+      <section id="skills" className="py-20"><Skills skills={data.skills} /></section>
+      <section id="contact" className="py-20"><Contact email={data.email} phone={data.phone} /></section>
+    </div>
   );
 }
